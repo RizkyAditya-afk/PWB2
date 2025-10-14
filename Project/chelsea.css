@@ -1,0 +1,178 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2a2950);
+    color: #f3f3f3;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+/* ===== Container ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(30, 30, 50, 0.9);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 0 30px rgba(100, 100, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(120, 120, 255, 0.4);
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.8em;
+    color: #66ccff;
+    text-shadow: 0 0 10px rgba(102, 204, 255, 0.5);
+}
+.subtitle {
+    color: #d1c4e9;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* ===== Profile ===== */
+.profile {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #66ccff;
+    box-shadow: 0 0 15px rgba(102, 204, 255, 0.4);
+    transition: transform 0.3s;
+}
+.profile-img:hover {
+    transform: scale(1.05);
+}
+.profile h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ffd54f;
+}
+
+/* ===== Experience ===== */
+.experience {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.experience h2 {
+    color: #82b1ff;
+    margin-bottom: 20px;
+}
+.experience table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.experience th, .experience td {
+    border: 1px solid #555;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.experience th {
+    background-color: rgba(102, 204, 255, 0.1);
+    color: #66ccff;
+}
+
+/* ===== Hobbies ===== */
+.hobbies {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.hobbies h2 {
+    color: #b388ff;
+    margin-bottom: 15px;
+}
+.hobbies ul {
+    list-style: none;
+}
+.hobbies li {
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 8px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+    transition: background 0.3s;
+}
+.hobbies li:hover {
+    background-color: rgba(179, 136, 255, 0.3);
+}
+
+/* ===== Music, Video, Social ===== */
+.music, .video, .social {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.music h2, .video h2, .social h2 {
+    color: #80deea;
+    margin-bottom: 15px;
+}
+audio {
+    width: 80%;
+    border-radius: 10px;
+}
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(102, 204, 255, 0.3);
+}
+
+/* ===== Social Links ===== */
+.social {
+    margin: 40px 0;
+  }
+  
+  .social h2 {
+    color: #00c8ff;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .social-icons img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #00c8ff;
+  }
+  
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    color: #ccc;
+    font-size: 0.9em;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+}
